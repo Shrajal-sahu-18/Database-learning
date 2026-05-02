@@ -30,3 +30,9 @@ CREATE TABLE Users(
 INSERT INTO users VALUES
 (1,"abc@gmail.com",20,"abc",293,120),
 (2,"abc2@gmail.com",21,"abc2",305,140);
+
+CREATE TABLE post(
+    ID INT PRIMARY KEY,
+    CONTENT VARCHAR(100),
+    USER_ID INT
+);
