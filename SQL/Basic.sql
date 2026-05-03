@@ -73,3 +73,6 @@ VALUES
 
 select name,age,email,id from user
 where age in (14,16);
+
+select name,age,email,id from user
+where age not in (14,16);
