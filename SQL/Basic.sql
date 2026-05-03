@@ -69,3 +69,7 @@ INSERT INTO USER
 VALUES
 (5,24,"EVE","eve@gmail.com",23445,235),
 (6,24,"farah","farah@gmial.com",3445,13);
+
+
+select name,age,email,id from user
+where age in (14,16);
