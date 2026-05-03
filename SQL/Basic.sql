@@ -44,3 +44,6 @@ CREATE TABLE post(
 SELECT ID NAME,AGE,EMAIL FROM USER;
 SELECT * FROM USER;
 SELECT DISTINCT AGE FROM USER;
+
+select * from user
+where followers >= 200;
