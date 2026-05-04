@@ -138,3 +138,5 @@ select name ,avg(followers)
 from user
 group by name
 having avg(followers) > 200;
+
+set sql_safe_updates = 0;
