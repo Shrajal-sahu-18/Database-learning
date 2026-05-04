@@ -140,3 +140,7 @@ group by name
 having avg(followers) > 200;
 
 set sql_safe_updates = 0;
+
+update user
+set followers = 600
+where age = 21;
