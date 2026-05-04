@@ -95,3 +95,10 @@ order by followers desc;
 select age,name,followers
 from user
 order by followers;  --by default ascending order may sort hoti hai
+
+
+--agerregate function
+
+select age(max)
+from user 
+
