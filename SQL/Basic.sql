@@ -144,3 +144,6 @@ set sql_safe_updates = 0;
 update user
 set followers = 600
 where age = 21;
+
+delete from user
+where age = 21;
