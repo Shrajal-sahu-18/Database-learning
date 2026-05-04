@@ -121,3 +121,7 @@ from user;
 select age count(id)
 from user
 group by age;
+
+select age max(followers)
+from user
+group by age;
