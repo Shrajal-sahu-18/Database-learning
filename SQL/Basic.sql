@@ -99,11 +99,16 @@ order by followers;  --by default ascending order may sort hoti hai
 
 --agerregate function
 
-select age(max)
+select max(age)
 from user;
 
-select age(min)
+select min(age)
 from user;
 
-select age(avg)
+select avg(age)
 from user;
+
+
+select count(age)
+from user 
+where age > 14;
