@@ -115,3 +115,9 @@ where age > 14;
 
 select sum(age)
 from user;
+
+-- GROUP BY 
+
+select age count(id)
+from user
+group by age;
