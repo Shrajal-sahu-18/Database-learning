@@ -112,3 +112,6 @@ from user;
 select count(age)
 from user 
 where age > 14;
+
+select sum(age)
+from user;
