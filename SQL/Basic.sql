@@ -125,3 +125,10 @@ group by age;
 select age max(followers)
 from user
 group by age;
+
+
+
+select age max(followers)
+from user
+group by age
+having max(followers) > 200;
