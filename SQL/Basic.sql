@@ -80,3 +80,8 @@ where age not in (14,16);
 select name,age,email,id from user
 where age >= 14
 limit 2;
+
+
+select age , name , followers 
+from user 
+order by followers ASC;
