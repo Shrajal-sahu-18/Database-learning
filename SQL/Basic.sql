@@ -100,5 +100,7 @@ order by followers;  --by default ascending order may sort hoti hai
 --agerregate function
 
 select age(max)
-from user 
+from user;
 
+select age(min)
+from user;
