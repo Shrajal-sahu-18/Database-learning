@@ -85,3 +85,8 @@ limit 2;
 select age , name , followers 
 from user 
 order by followers ASC;
+
+
+select age,name,followers
+from user
+order by followers desc;
