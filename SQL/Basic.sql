@@ -118,17 +118,23 @@ from user;
 
 -- GROUP BY 
 
-select age count(id)
+select age ,count(id)
 from user
 group by age;
 
-select age max(followers)
+select age ,max(followers)
 from user
 group by age;
 
 
 
-select age max(followers)
+select age ,max(followers)
 from user
 group by age
 having max(followers) > 200;
+
+
+select name ,avg(followers)
+from user
+group by name
+having avg(followers) > 200;
