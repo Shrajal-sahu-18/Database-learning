@@ -104,3 +104,6 @@ from user;
 
 select age(min)
 from user;
+
+select age(avg)
+from user;
