@@ -90,3 +90,8 @@ order by followers ASC;
 select age,name,followers
 from user
 order by followers desc;
+
+
+select age,name,followers
+from user
+order by followers;  --by default ascending order may sort hoti hai
