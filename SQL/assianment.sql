@@ -29,3 +29,6 @@ set ctc = ctc + ctc * 0.25;
 
 alter table teacher
 add column city varchar(50) default "gurgaon";
+
+alter table teacher
+derop column ctc;
