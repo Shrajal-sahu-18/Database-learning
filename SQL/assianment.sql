@@ -60,3 +60,8 @@ from student;
 -- Task -3
 select city from student
 group by city;
+
+-- Task-4
+select city max(marks)
+from student
+group by city;
