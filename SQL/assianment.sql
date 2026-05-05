@@ -21,3 +21,8 @@ where salary > 50000;
 -- task-2
 alter table teacher
 change column salary ctc int ;
+
+set sql_safe_updates = 0;
+
+update teacher
+set ctc = ctc + ctc * 0.25;
