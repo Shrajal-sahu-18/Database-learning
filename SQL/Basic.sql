@@ -147,3 +147,6 @@ where age = 21;
 
 delete from user
 where age = 21;
+
+alter table user
+add column City varchar(50) default "delhi";
