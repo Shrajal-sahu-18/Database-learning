@@ -56,3 +56,7 @@ where marks > 75;
 -- Task -2
 select dictnict city
 from student;
+
+-- Task -3
+select city from student
+group by city;
