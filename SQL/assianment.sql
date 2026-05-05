@@ -65,3 +65,7 @@ group by city;
 select city max(marks)
 from student
 group by city;
+
+ -- Task -5
+select avg(marks)
+from student
