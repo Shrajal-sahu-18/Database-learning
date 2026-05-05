@@ -13,3 +13,6 @@ values
 (47,"bharat","english",60000),
 (18,"chetan","english",45000),
 (9,"divya","physics",75000);
+
+select * from teacher
+where salary > 50000;
