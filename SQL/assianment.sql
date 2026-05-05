@@ -75,6 +75,11 @@ from student
 alter table student
 add column grade varchar(2);
 
+-- Task-7
 update student
 set grade = "0"
 where marks >=80;
+
+update student
+set grade = "a"
+where marks >=70 and marks <80;
