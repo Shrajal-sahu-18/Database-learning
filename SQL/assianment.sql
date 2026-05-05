@@ -69,3 +69,8 @@ group by city;
  -- Task -5
 select avg(marks)
 from student
+
+
+-- Task-6
+alter table student
+add column grade varchar(2);
