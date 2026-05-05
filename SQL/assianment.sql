@@ -14,5 +14,10 @@ values
 (18,"chetan","english",45000),
 (9,"divya","physics",75000);
 
+-- task-1
 select * from teacher
 where salary > 50000;
+
+-- task-2
+alter table teacher
+change column salary ctc int ;
