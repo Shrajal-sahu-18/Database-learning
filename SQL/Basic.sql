@@ -164,3 +164,5 @@ alter table user
 change column followers subd int default (0);
 
 drop table post;
+
+truncate table user;
