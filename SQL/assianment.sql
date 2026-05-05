@@ -48,3 +48,7 @@ values
 (108,"casey","pune",65),
 (124,"bob","mumbai",94),
 (112,"duke","pune",80);
+
+-- Task-1
+select * from student
+where marks > 75;
