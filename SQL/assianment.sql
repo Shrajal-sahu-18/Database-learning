@@ -26,3 +26,6 @@ set sql_safe_updates = 0;
 
 update teacher
 set ctc = ctc + ctc * 0.25;
+
+alter table teacher
+add column city varchar(50) default "gurgaon";
