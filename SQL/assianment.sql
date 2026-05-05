@@ -32,3 +32,5 @@ add column city varchar(50) default "gurgaon";
 
 alter table teacher
 derop column ctc;
+
+create table student;
