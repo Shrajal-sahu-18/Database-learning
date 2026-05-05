@@ -83,3 +83,8 @@ where marks >=80;
 update student
 set grade = "a"
 where marks >=70 and marks <80;
+
+-- Task - 8
+update student
+set grade = "b"
+where marks >=60 and marks < 70;
