@@ -150,3 +150,6 @@ where age = 21;
 
 alter table user
 add column City varchar(50) default "delhi";
+
+alter table user
+drop column age;
