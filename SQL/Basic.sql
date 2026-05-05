@@ -156,3 +156,6 @@ drop column age;
 
 alter table user
 rename to  instauser;
+
+alter table instauser
+rename to user;
