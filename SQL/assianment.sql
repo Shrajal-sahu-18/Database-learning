@@ -33,4 +33,18 @@ add column city varchar(50) default "gurgaon";
 alter table teacher
 derop column ctc;
 
-create table student;
+CREATE TABLE STUDENT(
+Roll_no int primary key,
+name varchar(50),
+city varchar(50),
+marks int 
+);
+
+
+insert into student
+(roll_no,name,city,marks)
+values
+(110,"ADAM","DELHI",76),
+(108,"casey","pune",65),
+(124,"bob","mumbai",94),
+(112,"duke","pune",80);
