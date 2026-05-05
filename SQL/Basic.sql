@@ -159,3 +159,6 @@ rename to  instauser;
 
 alter table instauser
 rename to user;
+
+alter table user
+change column followers subd int default (0);
