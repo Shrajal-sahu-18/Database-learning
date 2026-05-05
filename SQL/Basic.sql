@@ -153,3 +153,6 @@ add column City varchar(50) default "delhi";
 
 alter table user
 drop column age;
+
+alter table user
+rename to  instauser;
