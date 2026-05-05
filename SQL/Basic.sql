@@ -162,3 +162,5 @@ rename to user;
 
 alter table user
 change column followers subd int default (0);
+
+drop table post;
