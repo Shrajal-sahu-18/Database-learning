@@ -52,3 +52,7 @@ values
 -- Task-1
 select * from student
 where marks > 75;
+
+-- Task -2
+select dictnict city
+from student;
