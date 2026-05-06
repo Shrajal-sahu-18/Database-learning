@@ -19,3 +19,11 @@ update accounts set balance = balance-100 where id = 1;
 commit;
 update accounts set balance = balance + 100 where id = 3;
 rollback;
+
+start transaction;
+update accounts set balance = balance+1000 where id = 1;
+SAVEPOINT AFTER_WALLET_TOP_UP;
+update accounts set balance = balance + 10 where id = 1;
+-- ERROR
+ROLLBACK TO AFTER_WALLET_TOP_UP;
+COMMIT;
