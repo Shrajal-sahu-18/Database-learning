@@ -154,3 +154,7 @@ where firstname like 'A%';
 -- Task-9
 select * from employee
 where salary between 4000 and 7000 ;
+
+--Task-10
+select avg(salary) As avaragesalary
+from employee;
