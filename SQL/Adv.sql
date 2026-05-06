@@ -51,3 +51,10 @@ order_id int primary key,
 customer_id int,
 amount int
 );
+
+
+insert into orders values
+(101,1,500),
+(102,1,900),
+(103,2,300),
+(104,5,700);
