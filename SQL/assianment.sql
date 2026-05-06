@@ -165,3 +165,7 @@ select department, count(*) as numberofEmployess
 from employee
 group by department
 having count(*) > 3;
+
+select @@autocommit;
+
+set autocommit = 0;
