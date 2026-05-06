@@ -36,3 +36,12 @@ customer_id int primary key,
 name varchar(50),
 city  varchar(50)
 );
+
+
+insert into customers
+(customer_id,name,city)
+values
+(1,"Alice","Mumbai"),
+(2,"Bob","Delhi"),
+(3,"Charlie","Banglore"),
+(4,"David","Mumbai");
