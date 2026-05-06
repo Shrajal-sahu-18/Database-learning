@@ -45,3 +45,9 @@ values
 (2,"Bob","Delhi"),
 (3,"Charlie","Banglore"),
 (4,"David","Mumbai");
+
+create table orders(
+order_id int primary key,
+customer_id int,
+amount int
+);
