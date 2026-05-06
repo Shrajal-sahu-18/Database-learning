@@ -146,3 +146,7 @@ where department = "marketing";
 
 -- Task-7
 select distinct department from employee;
+
+-- Task-8
+select * from employee
+where firstname like 'A%';
