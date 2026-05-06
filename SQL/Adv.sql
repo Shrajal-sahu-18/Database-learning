@@ -27,3 +27,12 @@ update accounts set balance = balance + 10 where id = 1;
 -- ERROR
 ROLLBACK TO AFTER_WALLET_TOP_UP;
 COMMIT;
+
+
+use prime;
+select * from accounts;
+create table customers(
+customer_id int primary key,
+name varchar(50),
+city  varchar(50)
+);
