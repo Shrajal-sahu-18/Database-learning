@@ -126,3 +126,7 @@ SELECT * FROM EMPLOYEE;
 -- Task - 2
 SELECT FIRSTNAME,LASTNAME,SALARY 
 FROM EMPLOYEE;
+
+-- Task -3
+select * from employee
+where department = "it";
