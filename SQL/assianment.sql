@@ -122,3 +122,7 @@ select * from employee;
 -- tASK-1
 
 SELECT * FROM EMPLOYEE;
+
+-- Task - 2
+SELECT FIRSTNAME,LASTNAME,SALARY 
+FROM EMPLOYEE;
