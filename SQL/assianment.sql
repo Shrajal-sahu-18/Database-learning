@@ -150,3 +150,7 @@ select distinct department from employee;
 -- Task-8
 select * from employee
 where firstname like 'A%';
+
+-- Task-9
+select * from employee
+where salary between 4000 and 7000 ;
