@@ -138,3 +138,8 @@ where salary >=6000;
 -- Task-5
 select * from employee
 order by hiredate desc;
+
+-- Task -6
+UPDATE EMPLOYEE
+SET department = "Marketing"
+where department = "marketing";
