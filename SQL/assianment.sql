@@ -158,3 +158,10 @@ where salary between 4000 and 7000 ;
 --Task-10
 select avg(salary) As avaragesalary
 from employee;
+
+
+--Task-11
+select department, count(*) as numberofEmployess
+from employee
+group by department
+having count(*) > 3;
