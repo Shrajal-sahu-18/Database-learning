@@ -134,3 +134,7 @@ where department = "it";
 -- Task -4 
 select * from employee
 where salary >=6000;
+
+-- Task-5
+select * from employee
+order by hiredate desc;
