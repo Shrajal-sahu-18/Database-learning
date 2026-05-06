@@ -130,3 +130,7 @@ FROM EMPLOYEE;
 -- Task -3
 select * from employee
 where department = "it";
+
+-- Task -4 
+select * from employee
+where salary >=6000;
