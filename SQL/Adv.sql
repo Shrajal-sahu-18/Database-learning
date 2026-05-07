@@ -115,3 +115,12 @@ from customers as a
 left join orders as b
 on a.customer_id = b.customer_id
 where b.customer_id is NULL;
+
+
+-- Right Exclusive Join
+
+select * 
+from customers as a
+right join orders as b
+on a.customer_id = b.customer_id
+where a.customer_id is NULL;
