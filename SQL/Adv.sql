@@ -72,3 +72,10 @@ select c.customer_id,o.order_id,c.name
 from customers as c
 inner join orders as o
 on c.customer_id = o.customer_id;
+
+
+-- left join
+select * 
+from customers as c
+left join orders as o
+on c.customer_id = o.customer_id;
