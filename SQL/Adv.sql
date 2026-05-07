@@ -85,3 +85,14 @@ select *
 from customers as c
 right join orders as o
 on c.customer_id = o.customer_id;
+
+-- Outer join
+select * 
+from customers as c
+left join orders as o
+on c.customer_id = o.customer_id
+UNION
+select *
+from customers as c
+right join orders as o
+on c.customer_id = o.customer_id;
