@@ -96,3 +96,8 @@ select *
 from customers as c
 right join orders as o
 on c.customer_id = o.customer_id;
+
+-- cross join
+select * 
+from customers
+cross join orders;
