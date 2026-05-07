@@ -142,3 +142,13 @@ SELECT name,
         where o.customer_id = c.customer_id
     ) as order_count
 from customers c;
+
+
+select 
+summary.customer_id,
+summary.avg_amount
+from
+(select 
+    customer_id ,avg(amount) as avg_amount
+    from orders
+group by customer_id) as summary;
