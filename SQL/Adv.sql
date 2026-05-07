@@ -58,3 +58,11 @@ insert into orders values
 (102,1,900),
 (103,2,300),
 (104,5,700);
+
+
+select * from customers;
+-- inner join
+select * 
+from customers as c 
+inner join orders as o
+on c.customer_id = o.customer_id;
