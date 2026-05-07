@@ -133,3 +133,12 @@ where amount > (
     select avg(amount)
     from orders
 );
+
+-- subQuery use by select
+SELECT name,
+    (
+        select count(*)
+        from orders o
+        where o.customer_id = c.customer_id
+    ) as order_count
+from customers c;
