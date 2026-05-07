@@ -79,3 +79,9 @@ select *
 from customers as c
 left join orders as o
 on c.customer_id = o.customer_id;
+
+-- Right join
+select *
+from customers as c
+right join orders as o
+on c.customer_id = o.customer_id;
