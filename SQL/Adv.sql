@@ -101,3 +101,9 @@ on c.customer_id = o.customer_id;
 select * 
 from customers
 cross join orders;
+
+-- Self join
+select * 
+from customers as a
+join orders as b
+on a.customer_id = b.customer_id;
