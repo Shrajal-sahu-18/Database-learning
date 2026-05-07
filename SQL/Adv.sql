@@ -124,3 +124,12 @@ from customers as a
 right join orders as b
 on a.customer_id = b.customer_id
 where a.customer_id is NULL;
+
+
+-- subQuery use by where
+select *
+from orders o
+where amount > (
+    select avg(amount)
+    from orders
+);
