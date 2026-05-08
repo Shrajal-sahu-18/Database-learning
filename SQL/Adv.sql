@@ -157,3 +157,5 @@ group by customer_id) as summary;
 -- view in sql
 create view view1 as
 select customer_id,name from customers;
+
+select * from view1
