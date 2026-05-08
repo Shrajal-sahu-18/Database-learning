@@ -152,3 +152,8 @@ from
     customer_id ,avg(amount) as avg_amount
     from orders
 group by customer_id) as summary;
+
+
+-- view in sql
+create view view1 as
+select customer_id,name from customers;
