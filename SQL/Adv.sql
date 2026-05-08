@@ -159,3 +159,11 @@ create view view1 as
 select customer_id,name from customers;
 
 select * from view1 where name = "Alice";
+
+drop view view1;
+
+create view view1 as
+select c.customer_id , c.name, o.order_id
+from customers c
+inner join orders o
+on c.customer_id = o.customer_id;
