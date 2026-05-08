@@ -158,4 +158,4 @@ group by customer_id) as summary;
 create view view1 as
 select customer_id,name from customers;
 
-select * from view1
+select * from view1 where name = "Alice";
