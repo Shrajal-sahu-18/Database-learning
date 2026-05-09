@@ -198,3 +198,6 @@ values
 (2,"Bob",300.00,"Delhi"),
 (3,"Charlie",700.00,"Banglore"),
 (4,"David",1000.00,"Noida");
+
+
+create index idx_branch on  accounts(Branch);
