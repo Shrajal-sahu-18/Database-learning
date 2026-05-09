@@ -220,3 +220,6 @@ BEGIN
     where account_id = acc_id;
 END//
 DELIMITER ;
+
+CALL check_balance(1,@amount);
+select @amount
