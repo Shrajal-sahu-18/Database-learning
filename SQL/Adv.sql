@@ -211,3 +211,5 @@ where Branch = "Mumbai";
 CREATE INDEX idx2 on accounts(branch,balance);
 
 show index from accounts;
+
+create procedure check_balance(IN acc_id INT,OUT bal DECIMAL(10,2))
