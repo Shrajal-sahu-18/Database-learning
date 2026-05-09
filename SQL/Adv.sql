@@ -190,3 +190,11 @@ branch varchar(50)
 
 
 );
+
+insert into accounts
+(account_id,name,balance,branch)
+values
+(1,"Adam",500.00,"Mumbai"),
+(2,"Bob",300.00,"Delhi"),
+(3,"Charlie",700.00,"Banglore"),
+(4,"David",1000.00,"Noida");
