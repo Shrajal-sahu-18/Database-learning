@@ -176,3 +176,17 @@ inner join orders o
 on c.customer_id = o.customer_id;
 
 drop view view1;
+
+
+-- index in sql
+
+use prime;
+
+create table accounts(
+account_id int primary key,
+name varchar(50),
+balance decimal (10,2),
+branch varchar(50)
+
+
+);
