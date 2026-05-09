@@ -223,3 +223,5 @@ DELIMITER ;
 
 CALL check_balance(1,@amount);
 select @amount
+
+DROP procedure if exists check_balance;
