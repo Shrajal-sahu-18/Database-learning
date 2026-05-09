@@ -201,3 +201,5 @@ values
 
 
 create index idx_branch on  accounts(Branch);
+
+show index from accounts;
