@@ -207,3 +207,7 @@ show index from accounts;
 select * 
 from accounts
 where Branch = "Mumbai";
+
+CREATE INDEX idx2 on accounts(branch,balance);
+
+show index from accounts;
