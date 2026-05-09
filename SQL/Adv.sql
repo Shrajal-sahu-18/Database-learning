@@ -214,3 +214,9 @@ show index from accounts;
 
 delimiter //
 create procedure check_balance(IN acc_id INT,OUT bal DECIMAL(10,2))
+BEGIN
+    SELECT Balance INTO BAL
+    from accounts
+    where account_id = acc_id;
+END//
+DELIMITER ;
