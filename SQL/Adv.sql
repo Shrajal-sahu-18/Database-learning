@@ -203,3 +203,7 @@ values
 create index idx_branch on  accounts(Branch);
 
 show index from accounts;
+
+select * 
+from accounts
+where Branch = "Mumbai";
