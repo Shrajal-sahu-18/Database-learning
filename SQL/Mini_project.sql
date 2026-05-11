@@ -135,3 +135,14 @@ select  c.customer_id,c.name,o.order_date
 from customers as c
 inner join orders as o
 on c.customer_id = o.customer_id;
+
+
+
+-- 8
+
+select c.name,
+sum(o.total_amount) as total_spent
+from customers as c
+inner join orders as o
+on c.customer_id = o.customer_id
+group by c.name;
