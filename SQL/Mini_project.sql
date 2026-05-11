@@ -17,3 +17,13 @@ CREATE TABLE products(
     stock int, 
     check(stock >= 0)
 );
+
+
+CREATE TABLE orders(
+orders_id int primary key auto_increment,
+customer_id int ,
+order_date date,
+total_amount decimal(10,2),
+foreign key (customer_id) 
+REFERENCES customers(customer_id)
+);
