@@ -112,3 +112,8 @@ where price > 500;
 -- 3
 select * from products 
 where stock = 0;
+
+
+-- 4
+select avg(price) as avg_price
+from products;
