@@ -128,3 +128,10 @@ limit 1;
 -- 6
 select count(*) as order_count
 from orders;
+
+
+-- 7
+select  c.customer_id,c.name,o.order_date
+from customers as c
+inner join orders as o
+on c.customer_id = o.customer_id;
