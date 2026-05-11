@@ -54,3 +54,12 @@ values
 ("priya","priya@gmail.com","delhi"),
 ("Sneha","sneha@gmail.com","Mumbai"),
 ("Rohit","rohit@gmail.com","Pune");
+
+
+INSERT INTO products(product_name,price,stock)
+values
+("Laptop",55000,10),
+("Mouse",700,50),
+("Keyboard",1200,30),
+("Phone",1200,15),
+("Headphones",2000,0);
