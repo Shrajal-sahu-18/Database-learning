@@ -100,3 +100,9 @@ select name from customers;
 select *
 from customers
 order by name;
+
+
+
+-- 2
+select * from products
+where price > 500;
