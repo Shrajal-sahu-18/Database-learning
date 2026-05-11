@@ -117,3 +117,9 @@ where stock = 0;
 -- 4
 select avg(price) as avg_price
 from products;
+
+
+-- 5
+select * from products
+order by price desc
+limit 1;
