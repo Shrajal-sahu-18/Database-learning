@@ -123,3 +123,8 @@ from products;
 select * from products
 order by price desc
 limit 1;
+
+
+-- 6
+select count(*) as order_count
+from orders;
