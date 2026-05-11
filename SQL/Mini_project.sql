@@ -146,3 +146,20 @@ from customers as c
 inner join orders as o
 on c.customer_id = o.customer_id
 group by c.name;
+
+
+
+-- 9
+select o.orders_id,
+p.product_name,
+oi.quantity
+from orders as o
+inner join orders_item as oi
+on o.orders_id = oi.orders_id
+inner join products p
+on oi.product_id = p.product_id
+order by o.orders_id ;
+
+select * from products;
+select * from orders_item;
+select * from orders;
