@@ -42,3 +42,15 @@ CREATE TABLE orders_item(
     references products(product_id)
     
 );
+
+
+-- ===============================
+--  3. insert data
+-- ==================================
+insert into customers(name,email,city)
+values
+("Rahul","rahul@gmail.com","Bhopal"),
+("Aman","aman@gmail.com","Indore"),
+("priya","priya@gmail.com","delhi"),
+("Sneha","sneha@gmail.com","Mumbai"),
+("Rohit","rohit@gmail.com","Pune");
