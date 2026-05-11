@@ -106,3 +106,9 @@ order by name;
 -- 2
 select * from products
 where price > 500;
+
+
+
+-- 3
+select * from products 
+where stock = 0;
