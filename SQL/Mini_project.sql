@@ -93,3 +93,10 @@ values
 (8,3,1),
 (9,2,1),
 (10,4,1);
+
+
+-- 1
+select name from customers;
+select *
+from customers
+order by name;
