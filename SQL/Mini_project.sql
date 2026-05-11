@@ -27,3 +27,18 @@ total_amount decimal(10,2),
 foreign key (customer_id) 
 REFERENCES customers(customer_id)
 );
+
+
+CREATE TABLE orders_item(
+    item_id int primary key auto_increment,
+    orders_id int,
+    product_id int ,
+    quantity int,
+    
+    foreign key (orders_id) 
+    references orders(orders_id),
+    
+    foreign key (product_id)  
+    references products(product_id)
+    
+);
