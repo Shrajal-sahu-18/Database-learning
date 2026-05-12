@@ -12,4 +12,4 @@ My SQL and database learning journey
 - MySQL Workbench
 
 ## Teacher
-- Shradha khapra maa'm
+- Shradha khapra maa'm(Apna Collage)
