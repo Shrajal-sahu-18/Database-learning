@@ -5,6 +5,7 @@ My SQL and database learning journey
 - Basic
 - Advanced
 - Assianment
+- Mini Project
 
 ## Tools used
 - MySQL
