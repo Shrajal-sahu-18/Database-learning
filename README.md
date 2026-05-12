@@ -10,3 +10,6 @@ My SQL and database learning journey
 ## Tools used
 - MySQL
 - MySQL Workbench
+
+## Teacher
+- Shradha khapra maa'm
