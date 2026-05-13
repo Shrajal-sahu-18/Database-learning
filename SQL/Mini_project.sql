@@ -163,3 +163,11 @@ order by o.orders_id ;
 select * from products;
 select * from orders_item;
 select * from orders;
+
+select c.name,
+count(o.orders_id) as total_order
+from customers as c
+inner join orders as o
+on c.customer_id = o.customer_id
+group by c.name
+having count(o.orders_id) > 2;
