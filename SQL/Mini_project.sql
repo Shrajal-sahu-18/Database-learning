@@ -182,3 +182,11 @@ on p.product_id = oi.product_id
 group by p.product_name
 order by total_sold desc
 limit 1;
+
+-- 12
+select * from products
+where price > 
+(    select avg(price) 
+     from products
+
+);
