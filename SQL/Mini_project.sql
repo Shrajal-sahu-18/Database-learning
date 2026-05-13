@@ -220,3 +220,16 @@ delete from orders
 where total_amount = 1200;
 
 
+
+-- 16
+-- view
+create view customer_order_summary as
+select c.name,
+count(o.orders_id) as order_count,
+sum(o.total_amount) as total_spent
+from customers as c
+inner join orders as o
+on c.customer_id = o.customer_id
+group by c.name;
+select * from customer_order_summary;
+
