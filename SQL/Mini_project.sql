@@ -218,3 +218,5 @@ select * from orders;
 
 delete from orders
 where total_amount = 1200;
+
+
