@@ -204,3 +204,9 @@ where customer_id = (
     order by sum(total_amount)  desc
     limit 1
     );
+
+
+-- 14    
+UPDATE products
+set price = 20
+where product_id = 5;
