@@ -164,6 +164,7 @@ select * from products;
 select * from orders_item;
 select * from orders;
 
+-- 10
 select c.name,
 count(o.orders_id) as total_order
 from customers as c
@@ -171,3 +172,13 @@ inner join orders as o
 on c.customer_id = o.customer_id
 group by c.name
 having count(o.orders_id) > 2;
+
+-- 11
+select p.product_name,
+sum(oi.quantity) as total_sold
+from products as p
+inner join orders_item oi
+on p.product_id = oi.product_id
+group by p.product_name
+order by total_sold desc
+limit 1;
