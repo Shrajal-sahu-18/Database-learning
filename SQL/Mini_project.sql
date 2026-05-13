@@ -190,3 +190,17 @@ where price >
      from products
 
 );
+
+
+
+
+-- 13
+select name
+from customers
+where customer_id = (
+	select customer_id
+    from orders
+    group by customer_id
+    order by sum(total_amount)  desc
+    limit 1
+    );
