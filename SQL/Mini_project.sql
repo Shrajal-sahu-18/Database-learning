@@ -210,3 +210,11 @@ where customer_id = (
 UPDATE products
 set price = 20
 where product_id = 5;
+
+
+-- 15
+
+select * from orders;
+
+delete from orders
+where total_amount = 1200;
